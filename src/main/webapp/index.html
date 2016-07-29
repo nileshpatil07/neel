@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simple calculater</title>
+<html>
+<body>
+  <script>
+function add()
+{
+var x= document.getElementById("num1").value;
+var y= document.getElementById("num2").value;
+var sum= +x + +y;
+  document.getElementById("result").inner=sum;
+alert("the sum=" +sum);
+}
+</script>
+<form>
+Enter number 1:<input type="number" id="num1">
+Enter number 2:<input type="number" id="num2">
+<input type="button" value="add" onclick="add();">
+</form>
+<div id="result">
+  
+  </div>
+</body>
+</html>
